@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class linkedList {
-//    static ArrayList<Node> list= new ArrayList<>();
+    //    static ArrayList<Node> list= new ArrayList<>();
     static Node head;
 
     // Functions-----------------------------------
@@ -42,6 +42,12 @@ public class linkedList {
         // if is empty
         if(isEmpty()) {
             System.out.println("List is empty");
+            return;
+        }
+
+        // if it's only one
+        if(head.next == null) {
+            head = null;
             return;
         }
 
