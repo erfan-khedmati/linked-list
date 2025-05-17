@@ -1,21 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        linkedList list = new linkedList();
+        Stack stack = new Stack();
 
-        Node node3 = new Node(3);
-        Node node2 = new Node(2);
         Node node1 = new Node(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        Node node4 = new Node(4);
 
-        list.insertAfter(1, node1);
-        list.insertAfter(1, node2);
-
-
-//        list.remove(1);
+//        stack.push(node1);
+//        stack.push(node2);
+//        stack.push(node3);
+//        stack.push(node4);
+//        stack.pop();
+//        stack.pop();
 //
-//        list.insertAfter(1, node2);
-
-        list.insertBefore(2, node3);
-
-        list.display();
+//        stack.display();
     }
 }
