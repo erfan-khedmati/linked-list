@@ -1,19 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        Stack stack = new Stack();
+      Queue queue = new Queue();
 
-        Node node1 = new Node(1);
-        Node node2 = new Node(2);
-        Node node3 = new Node(3);
-        Node node4 = new Node(4);
+      Node node1 = new Node(12);
+      Node node2 = new Node(22);
+      Node node3 = new Node(38);
+      Node node4 = new Node(1);
+      Node node5 = new Node(58);
 
-//        stack.push(node1);
-//        stack.push(node2);
-//        stack.push(node3);
-//        stack.push(node4);
-//        stack.pop();
-//        stack.pop();
-//
-//        stack.display();
+//      queue.enqueue(node1);
+//      queue.enqueue(node2);
+//      queue.enqueue(node3);
+//      queue.enqueue(node4);
+//      queue.enqueue(node5);
+
+//      queue.dequeue();
+//      queue.dequeue();
+//      queue.dequeue();
+//      queue.dequeue();
+
+      queue.display();
     }
 }
